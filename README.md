@@ -15,8 +15,10 @@ An 8-bit combinational Arithmetic Logic Unit (ALU) implemented in SystemVerilog,
 - Signed Overflow
 
 **Verification**
-
-Developed a self-checking testbench using reusable tasks and assertions to verify arithmetic and logic operations, including status flags and boundary conditions.
+- Self-checking testbench using reusable tasks.
+- Assertions to check ALU outputs and status flags.
+- Directed test scenarios covering arithmetic and logic operations.
+- Boundary and overflow test cases.
 
 **Tools**
 - SystemVerilog
